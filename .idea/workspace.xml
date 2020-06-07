@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dd2e26e-f29c-4928-acbd-cae0123a9f7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zero/stack/ArrayStackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zero/stack/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zero/stack/PolandNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zero/stack/ReversePolishMultiCalc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,29 +25,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="10" />
+          <entry key="java" value="14" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="14" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5110" />
+          <entry key="java" value="7616" />
           <entry key="md" value="107" />
-          <entry key="txt" value="87" />
+          <entry key="txt" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5110" />
+          <entry key="JAVA" value="7616" />
           <entry key="Markdown" value="107" />
-          <entry key="PLAIN_TEXT" value="87" />
+          <entry key="PLAIN_TEXT" value="108" />
         </counts>
       </usages-collector>
     </session>
@@ -53,15 +55,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zero/stack/ArrayStackDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zero/stack/ReversePolishMultiCalc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+            <state relative-caret-position="323">
+              <caret line="124" column="76" selection-start-line="124" selection-start-column="71" selection-end-line="124" selection-end-column="76" />
               <folding>
-                <element signature="e#1583#1584#0" expanded="true" />
-                <element signature="e#1624#1625#0" expanded="true" />
-                <element signature="e#1665#1666#0" expanded="true" />
-                <element signature="e#1697#1698#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1658#1659#0" expanded="true" />
+                <element signature="e#1693#1694#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="2119" column="19" selection-start-line="2119" selection-start-column="19" selection-end-line="2119" selection-end-column="19" />
+              <folding>
+                <element signature="e#82616#82617#0" expanded="true" />
+                <element signature="e#82667#82668#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,6 +105,9 @@
         <option value="$PROJECT_DIR$/src/com/zero/linkedList/DoubleLinkedListDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zero/linkedList/Josepfu.java" />
         <option value="$PROJECT_DIR$/src/com/zero/stack/ArrayStackDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/zero/stack/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/com/zero/stack/PolandNotation.java" />
+        <option value="$PROJECT_DIR$/src/com/zero/stack/ReversePolishMultiCalc.java" />
       </list>
     </option>
   </component>
@@ -107,6 +124,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -154,6 +172,14 @@
               <item name="zero" type="462c0819:PsiDirectoryNode" />
               <item name="linkedList" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zero" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -164,7 +190,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590978203107" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591518719884" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -187,9 +213,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayStackDemo">
+  <component name="RunManager" selected="Application.ReversePolishMultiCalc">
     <configuration name="ArrayStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zero.stack.ArrayStackDemo" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.stack.Calculator" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -214,12 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.queue.QueueDemo" />
+    <configuration name="PolandNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.stack.PolandNotation" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.queue.*" />
+          <option name="PATTERN" value="com.zero.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,25 +266,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.queue.QueueDemo2" />
+    <configuration name="ReversePolishMultiCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.stack.ReversePolishMultiCalc" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.linkedList.SingleLinkedListDemo" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.linkedList.*" />
+          <option name="PATTERN" value="com.zero.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,19 +280,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.QueueDemo" />
-      <item itemvalue="Application.QueueDemo2" />
-      <item itemvalue="Application.SingleLinkedListDemo" />
       <item itemvalue="Application.Josepfu" />
       <item itemvalue="Application.ArrayStackDemo" />
+      <item itemvalue="Application.Calculator" />
+      <item itemvalue="Application.PolandNotation" />
+      <item itemvalue="Application.ReversePolishMultiCalc" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReversePolishMultiCalc" />
+        <item itemvalue="Application.PolandNotation" />
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.ArrayStackDemo" />
         <item itemvalue="Application.Josepfu" />
-        <item itemvalue="Application.SingleLinkedListDemo" />
-        <item itemvalue="Application.QueueDemo2" />
-        <item itemvalue="Application.QueueDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +306,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590717445667</updated>
-      <workItem from="1590717447071" duration="30817000" />
+      <workItem from="1590717447071" duration="63812000" />
     </task>
     <task id="LOCAL-00001" summary="测试idea提交是否正常">
       <created>1590718594074</created>
@@ -324,14 +350,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590938298080</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1.栈的数组实现-pop-push">
+      <created>1590978283539</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590978283539</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30817000" />
+    <option name="totallyTimeSpent" value="63812000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <frame x="1" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -339,7 +372,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23137973" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23137973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="MyBatis Sql Log" />
       <window_info anchor="bottom" id="Messages" />
@@ -349,8 +382,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27700534" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27700534" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -378,7 +411,23 @@
     <MESSAGE value="&#10;1·队列--循环数组" />
     <MESSAGE value="链表实现增删改查" />
     <MESSAGE value="1.约瑟夫问题&#10;2.双向链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.约瑟夫问题&#10;2.双向链表" />
+    <MESSAGE value="1.栈的数组实现-pop-push" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.栈的数组实现-pop-push" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/zero/stack/PolandNotation.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms.iml">
@@ -485,13 +534,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zero/stack/ArrayStackDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        <state relative-caret-position="68">
+          <caret line="70" selection-start-line="70" selection-end-line="123" selection-end-column="5" />
           <folding>
             <element signature="e#1583#1584#0" expanded="true" />
             <element signature="e#1624#1625#0" expanded="true" />
             <element signature="e#1665#1666#0" expanded="true" />
             <element signature="e#1697#1698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zero/stack/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1914">
+          <caret line="72" column="35" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="35" />
+          <folding>
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#1686#1687#0" expanded="true" />
+            <element signature="e#1761#1762#0" expanded="true" />
+            <element signature="e#4066#4067#0" expanded="true" />
+            <element signature="e#4107#4108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zero/stack/PolandNotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="212" column="49" selection-start-line="212" selection-start-column="49" selection-end-line="212" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#toInfixExpressionList#0;class#PolandNotation#0" />
+            <element signature="e#2069#2077#0" expanded="true" />
+            <element signature="e#2244#2252#0" expanded="true" />
+            <element signature="method#calculate#0;class#PolandNotation#0" />
+            <element signature="e#1319#1327#0" expanded="true" />
+            <element signature="method#getListString#0;class#PolandNotation#0" />
+            <element signature="method#countMoney#0;class#PolandNotation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="2119" column="19" selection-start-line="2119" selection-start-column="19" selection-end-line="2119" selection-end-column="19" />
+          <folding>
+            <element signature="e#82616#82617#0" expanded="true" />
+            <element signature="e#82667#82668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zero/stack/ReversePolishMultiCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="124" column="76" selection-start-line="124" selection-start-column="71" selection-end-line="124" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1658#1659#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
           </folding>
         </state>
       </provider>
