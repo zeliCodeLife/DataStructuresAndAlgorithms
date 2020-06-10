@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dd2e26e-f29c-4928-acbd-cae0123a9f7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zero/stack/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zero/stack/PolandNotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zero/stack/ReversePolishMultiCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zero/recursion/MiGong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zero/recursion/Queue8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zero/recursion/RecursionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,58 +25,58 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="14" />
+          <entry key="java" value="17" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="14" />
+          <entry key="JAVA" value="17" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7616" />
+          <entry key="java" value="8416" />
           <entry key="md" value="107" />
-          <entry key="txt" value="108" />
+          <entry key="txt" value="128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7616" />
+          <entry key="JAVA" value="8416" />
           <entry key="Markdown" value="107" />
-          <entry key="PLAIN_TEXT" value="108" />
+          <entry key="PLAIN_TEXT" value="128" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zero/stack/ReversePolishMultiCalc.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zero/recursion/RecursionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="124" column="76" selection-start-line="124" selection-start-column="71" selection-end-line="124" selection-end-column="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1658#1659#0" expanded="true" />
-                <element signature="e#1693#1694#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="468">
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zero/recursion/MiGong.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="2119" column="19" selection-start-line="2119" selection-start-column="19" selection-end-line="2119" selection-end-column="19" />
-              <folding>
-                <element signature="e#82616#82617#0" expanded="true" />
-                <element signature="e#82667#82668#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="549">
+              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zero/recursion/Queue8.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-29">
+              <caret line="68" column="141" selection-start-line="68" selection-start-column="141" selection-end-line="68" selection-end-column="141" />
             </state>
           </provider>
         </entry>
@@ -108,6 +108,9 @@
         <option value="$PROJECT_DIR$/src/com/zero/stack/Calculator.java" />
         <option value="$PROJECT_DIR$/src/com/zero/stack/PolandNotation.java" />
         <option value="$PROJECT_DIR$/src/com/zero/stack/ReversePolishMultiCalc.java" />
+        <option value="$PROJECT_DIR$/src/com/zero/recursion/RecursionTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zero/recursion/MiGong.java" />
+        <option value="$PROJECT_DIR$/src/com/zero/recursion/Queue8.java" />
       </list>
     </option>
   </component>
@@ -124,7 +127,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
+    <option name="x" value="5" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -170,15 +173,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zero" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zero" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
+              <item name="recursion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,7 +185,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591518719884" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591749465630" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -213,39 +208,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReversePolishMultiCalc">
-    <configuration name="ArrayStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.stack.ArrayStackDemo" />
+  <component name="RunManager" selected="Application.Queue8">
+    <configuration name="MiGong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.recursion.MiGong" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.stack.Calculator" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Josepfu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.linkedList.Josepfu" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.linkedList.*" />
+          <option name="PATTERN" value="com.zero.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,6 +228,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zero.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Queue8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.recursion.Queue8" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.recursion.RecursionTest" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,19 +275,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Josepfu" />
-      <item itemvalue="Application.ArrayStackDemo" />
-      <item itemvalue="Application.Calculator" />
       <item itemvalue="Application.PolandNotation" />
       <item itemvalue="Application.ReversePolishMultiCalc" />
+      <item itemvalue="Application.RecursionTest" />
+      <item itemvalue="Application.MiGong" />
+      <item itemvalue="Application.Queue8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Queue8" />
+        <item itemvalue="Application.MiGong" />
+        <item itemvalue="Application.RecursionTest" />
         <item itemvalue="Application.ReversePolishMultiCalc" />
         <item itemvalue="Application.PolandNotation" />
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.ArrayStackDemo" />
-        <item itemvalue="Application.Josepfu" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +301,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590717445667</updated>
-      <workItem from="1590717447071" duration="63812000" />
+      <workItem from="1590717447071" duration="73977000" />
     </task>
     <task id="LOCAL-00001" summary="测试idea提交是否正常">
       <created>1590718594074</created>
@@ -357,14 +352,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590978283539</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="完整版逆波兰表达式">
+      <created>1591518753368</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591518753368</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63812000" />
+    <option name="totallyTimeSpent" value="73977000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1680" height="1027" extended-state="0" />
+    <frame x="5" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -412,7 +414,8 @@
     <MESSAGE value="链表实现增删改查" />
     <MESSAGE value="1.约瑟夫问题&#10;2.双向链表" />
     <MESSAGE value="1.栈的数组实现-pop-push" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.栈的数组实现-pop-push" />
+    <MESSAGE value="完整版逆波兰表达式" />
+    <option name="LAST_COMMIT_MESSAGE" value="完整版逆波兰表达式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -592,13 +595,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zero/stack/ReversePolishMultiCalc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="124" column="76" selection-start-line="124" selection-start-column="71" selection-end-line="124" selection-end-column="76" />
+        <state relative-caret-position="-298">
+          <caret line="108" column="43" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1658#1659#0" expanded="true" />
             <element signature="e#1693#1694#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zero/recursion/RecursionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zero/recursion/MiGong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zero/recursion/Queue8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="68" column="141" selection-start-line="68" selection-start-column="141" selection-end-line="68" selection-end-column="141" />
         </state>
       </provider>
     </entry>
