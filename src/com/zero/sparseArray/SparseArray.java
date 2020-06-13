@@ -1,4 +1,4 @@
-package com.zero.sparsearray;
+package com.zero.sparseArray;
 
 /**
  * Created by zero on 2020/5/29.

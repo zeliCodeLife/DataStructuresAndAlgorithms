@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dd2e26e-f29c-4928-acbd-cae0123a9f7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zero/recursion/MiGong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zero/recursion/Queue8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zero/recursion/RecursionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zero/sortAlgorithm/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zero/sortAlgorithm/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zero/sortAlgorithm/SelectSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zero/sparsearray/SparseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zero/sparseArray/SparseArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,29 +26,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="17" />
+          <entry key="java" value="20" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="20" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8416" />
+          <entry key="java" value="9098" />
           <entry key="md" value="107" />
-          <entry key="txt" value="128" />
+          <entry key="txt" value="150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8416" />
+          <entry key="JAVA" value="9098" />
           <entry key="Markdown" value="107" />
-          <entry key="PLAIN_TEXT" value="128" />
+          <entry key="PLAIN_TEXT" value="150" />
         </counts>
       </usages-collector>
     </session>
@@ -55,28 +56,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zero/recursion/RecursionTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zero/sortAlgorithm/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="269">
+              <caret line="19" column="26" selection-start-line="15" selection-start-column="7" selection-end-line="19" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zero/recursion/MiGong.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zero/sortAlgorithm/SelectSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+            <state relative-caret-position="363">
+              <caret line="31" column="50" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="31" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zero/recursion/Queue8.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zero/sortAlgorithm/InsertSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29">
-              <caret line="68" column="141" selection-start-line="68" selection-start-column="141" selection-end-line="68" selection-end-column="141" />
+            <state relative-caret-position="247">
+              <caret line="49" column="96" selection-start-line="49" selection-start-column="96" selection-end-line="49" selection-end-column="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,6 +99,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/com/zero/sortAlgorithm</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,6 +126,9 @@
         <option value="$PROJECT_DIR$/src/com/zero/recursion/RecursionTest.java" />
         <option value="$PROJECT_DIR$/src/com/zero/recursion/MiGong.java" />
         <option value="$PROJECT_DIR$/src/com/zero/recursion/Queue8.java" />
+        <option value="$PROJECT_DIR$/src/com/zero/sortAlgorithm/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/com/zero/sortAlgorithm/SelectSort.java" />
+        <option value="$PROJECT_DIR$/src/com/zero/sortAlgorithm/InsertSort.java" />
       </list>
     </option>
   </component>
@@ -126,8 +144,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="12" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -173,7 +191,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zero" type="462c0819:PsiDirectoryNode" />
-              <item name="recursion" type="462c0819:PsiDirectoryNode" />
+              <item name="sortAlgorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zero" type="462c0819:PsiDirectoryNode" />
+              <item name="sparseArray" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,7 +211,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591749465630" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592016960507" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -208,13 +234,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Queue8">
-    <configuration name="MiGong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.recursion.MiGong" />
+  <component name="RunManager" selected="Application.InsertSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.sortAlgorithm.BubbleSort" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.recursion.*" />
+          <option name="PATTERN" value="com.zero.sortAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,12 +248,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolandNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.stack.PolandNotation" />
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.sortAlgorithm.InsertSort" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.stack.*" />
+          <option name="PATTERN" value="com.zero.sortAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiGong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.recursion.MiGong" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,25 +287,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.recursion.RecursionTest" />
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.sortAlgorithm.SelectSort" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReversePolishMultiCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.stack.ReversePolishMultiCalc" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.stack.*" />
+          <option name="PATTERN" value="com.zero.sortAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,19 +301,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PolandNotation" />
-      <item itemvalue="Application.ReversePolishMultiCalc" />
-      <item itemvalue="Application.RecursionTest" />
       <item itemvalue="Application.MiGong" />
       <item itemvalue="Application.Queue8" />
+      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.SelectSort" />
+      <item itemvalue="Application.InsertSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertSort" />
+        <item itemvalue="Application.SelectSort" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Queue8" />
         <item itemvalue="Application.MiGong" />
-        <item itemvalue="Application.RecursionTest" />
-        <item itemvalue="Application.ReversePolishMultiCalc" />
-        <item itemvalue="Application.PolandNotation" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +327,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590717445667</updated>
-      <workItem from="1590717447071" duration="73977000" />
+      <workItem from="1590717447071" duration="82827000" />
     </task>
     <task id="LOCAL-00001" summary="测试idea提交是否正常">
       <created>1590718594074</created>
@@ -359,14 +385,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591518753368</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1。递归 2。8皇后问题 3。迷宫问题">
+      <created>1591749518873</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591749518873</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73977000" />
+    <option name="totallyTimeSpent" value="82827000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="23" width="1680" height="1027" extended-state="0" />
+    <frame x="3" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -415,7 +448,8 @@
     <MESSAGE value="1.约瑟夫问题&#10;2.双向链表" />
     <MESSAGE value="1.栈的数组实现-pop-push" />
     <MESSAGE value="完整版逆波兰表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="完整版逆波兰表达式" />
+    <MESSAGE value="1。递归 2。8皇后问题 3。迷宫问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="1。递归 2。8皇后问题 3。迷宫问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -464,7 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zero/sparsearray/SparseArray.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zero/sparseArray/SparseArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="76" column="31" lean-forward="true" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
@@ -621,8 +655,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zero/recursion/Queue8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="68" column="141" selection-start-line="68" selection-start-column="141" selection-end-line="68" selection-end-column="141" />
+        <state relative-caret-position="402">
+          <caret line="88" column="1" lean-forward="true" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zero/sortAlgorithm/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="19" column="26" selection-start-line="15" selection-start-column="7" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zero/sortAlgorithm/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="31" column="50" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="31" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zero/sortAlgorithm/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="49" column="96" selection-start-line="49" selection-start-column="96" selection-end-line="49" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
